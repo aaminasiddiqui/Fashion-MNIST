@@ -17,13 +17,13 @@ Label | Description
 8	| Bag
 9	| Ankle boot
   
-Used matplotlib to view an image from the data set. It can be any image from the data set.
-Normalized the X train and X test data by dividing by the max value of the image arrays.
-Reshaped the X arrays to include a 4 dimension of the single channel. Similar to what we did for the numbers MNIST data set.
-Converted the y_train and y_test values to be one-hot encoded for categorical analysis by Keras.
+- Used matplotlib to view an image from the data set. It can be any image from the data set.
+- Normalized the X train and X test data by dividing by the max value of the image arrays.
+- Reshaped the X arrays to include a 4 dimension of the single channel. Similar to what we did for the numbers MNIST data set.
+- Converted the y_train and y_test values to be one-hot encoded for categorical analysis by Keras.
 
 ### Model Training
-Used Keras to create a model consisting of the following layers
+-Used Keras to create a model consisting of the following layers
   - 2D Convolutional Layer, filters=32 and kernel_size=(4,4)
 
   - Pooling Layer where pool_size = (2,2)
