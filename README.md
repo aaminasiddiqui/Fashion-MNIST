@@ -23,7 +23,7 @@ Label | Description
 - Converted the y_train and y_test values to be one-hot encoded for categorical analysis by Keras.
 
 ### Model Training
-Used Keras to create a model consisting of the following layers
+- Used Keras to create a model consisting of the following layers
   - 2D Convolutional Layer, filters=32 and kernel_size=(4,4)
 
   - Pooling Layer where pool_size = (2,2)
@@ -40,7 +40,7 @@ Used Keras to create a model consisting of the following layers
 - **Fully Connected Layers**: Connect every neuron in one layer to every neuron in the next layer, enabling the network to learn complex representations.
 - **Output Layer**: 10 neurons corresponding to the 10 classes, typically using a softmax activation function to provide class probabilities.
   
-Then compiled the model with these parameters: loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']
+- Then compiled the model with these parameters: loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy']
 Train/Fit the model to the x_train set for 10 epochs.
 
 ### Evaluation
