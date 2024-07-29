@@ -4,18 +4,19 @@
 Downloaded the dataset using Keras.
 This data set includes 10 labels of different clothing types with 28 by 28 grayscale images. There is a training set of 60,000 images and 10,000 test images.
 
-- Label	Description
-- 0	    T-shirt/top
-- 1	    Trouser
-- 2	    Pullover
-- 3	    Dress
-- 4	    Coat
-- 5	    Sandal
-- 6	    Shirt
-- 7	    Sneaker
-- 8	    Bag
-- 9	    Ankle boot
-- 
+Label | Description
+-----   -----------
+0 | T-shirt/top
+1 | Trouser
+2	| Pullover
+3	| Dress
+4	| Coat
+5	| Sandal
+6	| Shirt
+7	| Sneaker
+8	| Bag
+9	| Ankle boot
+  
 Used matplotlib to view an image from the data set. It can be any image from the data set.
 Normalized the X train and X test data by dividing by the max value of the image arrays.
 Reshaped the X arrays to include a 4 dimension of the single channel. Similar to what we did for the numbers MNIST data set.
