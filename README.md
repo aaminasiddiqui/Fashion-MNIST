@@ -23,7 +23,7 @@ Label | Description
 - Converted the y_train and y_test values to be one-hot encoded for categorical analysis by Keras.
 
 ### Model Training
--Used Keras to create a model consisting of the following layers
+Used Keras to create a model consisting of the following layers
   - 2D Convolutional Layer, filters=32 and kernel_size=(4,4)
 
   - Pooling Layer where pool_size = (2,2)
